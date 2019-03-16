@@ -37,6 +37,7 @@ class MapView extends Component {
           onDragEnd={this.onDragEnd}
           defaultZoom={15}
           onClick={this.props.onPress}
+          onClick={this.props.onLongPress}
         >
           {this.props.children}
         </GoogleMapContainer>
